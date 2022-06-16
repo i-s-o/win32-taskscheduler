@@ -31,9 +31,9 @@ trigger = {
   :start_minute => 5,
   :trigger_type => TaskScheduler::MONTHLYDOW,
   :type => {
-    :weeks        => TaskScheduler::FIRST_WEEK | TaskScheduler::LAST_WEEK,
-    :days_of_week => TaskScheduler::MONDAY | TaskScheduler::FRIDAY,
-    :months       => TaskScheduler::APRIL | TaskScheduler::MAY
+    :weeks_of_month => TaskScheduler::FIRST_WEEK | TaskScheduler::LAST_WEEK,
+    :days_of_week   => TaskScheduler::MONDAY | TaskScheduler::FRIDAY,
+    :months         => TaskScheduler::APRIL | TaskScheduler::MAY
   }
 }
 
