@@ -742,7 +742,7 @@ module Win32
     # * start_year
     # * trigger_type
     # * type
-    # * weeks
+    # * weeks_of_month
     # * weeks_interval
     #
     def trigger=(trigger)
